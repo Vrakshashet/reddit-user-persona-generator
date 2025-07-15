@@ -14,18 +14,19 @@ Steps to follow:
 
 1. Clone the Repository
     git clone https://github.com/your-username/reddit-user-persona-generator.git
+   
     cd reddit
 
-2. Install Dependencies
+3. Install Dependencies
     pip install requests beautifulsoup4
 
-3. Run the Script
+4. Run the Script
     python scrape_reddit_persona.py
-4. Input Reddit Profile URL
+5. Input Reddit Profile URL
     Example:
         Enter Reddit profile URL: https://www.reddit.com/user/Hungry-Move-6603/
 
-5. Output
+6. Output
     A .txt file (e.g., Hungry-Move-6603_raw.txt) will be created containing the user’s post and comment content.
 
 Generate Persona (Optional):
@@ -35,14 +36,6 @@ Generate Persona (Optional):
     -Copy the contents
     -Paste it into ChatGPT or another LLM with a prompt like:
     -"Copy and paste the content into ChatGPT to generate the persona."
-
-Project Structure:
-
-reddit/
-│
-├── reddit.py      # Main Python script
-├── README.md                     # Project documentation
-└── *.txt                         # Output files per Reddit user
 
 
 Tech Stack:

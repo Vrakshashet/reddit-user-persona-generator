@@ -13,7 +13,7 @@ Features:
 Steps to follow:
 
 1. Clone the Repository
-    git clone https://github.com/your-username/reddit.git
+    git clone https://github.com/your-username/reddit-user-persona-generator.git
     cd reddit
 
 2. Install Dependencies
